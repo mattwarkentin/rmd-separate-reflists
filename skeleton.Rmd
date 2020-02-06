@@ -1,0 +1,24 @@
+---
+title: "Untitled"
+author: "Name"
+date: "`r Sys.Date()`"
+output: 
+  pdf_document:
+    template: template.tex
+    citation_package: biblatex
+    includes:
+      in_header: header.tex
+bibliography: [refs.bib]
+---
+
+Here is my first sentence with citations belonging to one group [@R-rmarkdown; @rmarkdown2018], and here is my second citation [@R-knitr].
+
+Here is another citation [@knitr2015], and it will show up in both reference lists.
+
+# Category 1 References {-}
+
+\printbibliography[category=cat1,heading=none]
+
+# Category 2 References {-}
+
+\printbibliography[category=cat2,heading=none]

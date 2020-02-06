@@ -31,11 +31,14 @@ the repository URL.
 
 The usage is straightforward, simply write your document in the `Rmd`
 file as you usually would. Include all `BibTeX` citations in the
-`refs.bib` file (if you may store citations across multiple `.bib` files
-and add them to the YAML header), and cite them as you normally would.
+`refs.bib` file (you may store citations across multiple `.bib` files,
+perhaps by category, and add them to the YAML header), and cite them as
+you normally would.
 
 The only other file you will need to edit is the `header.tex` file. In
 this file, you may custom-define any reference categories you like, and
 assign the `BibTeX` IDs to the various categories. IDs can belong to
 multiple categories, if you would like them to show up in multiple
 reference lists.
+
+That’s it\! Render and enjoy\!

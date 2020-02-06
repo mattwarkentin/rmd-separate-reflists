@@ -16,7 +16,7 @@ forum
 
 The easiest way to get these documents onto your computer would be to
 `git clone` this repository locally. To do this in a terminal, navigate
-to a conspicous directory and clone, like so:
+to a conspicuous directory and clone, like so:
 
     # Home directory
     cd ~

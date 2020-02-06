@@ -39,9 +39,3 @@ this file, you may custom-define any reference categories you like, and
 assign the `BibTeX` IDs to the various categories. IDs can belong to
 multiple categories, if you would like them to show up in multiple
 reference lists.
-
------
-
-Please note that the ‘rmd-separate-reflists’ project is released with a
-[Contributor Code of Conduct](CODE_OF_CONDUCT.md). By contributing to
-this project, you agree to abide by its terms.

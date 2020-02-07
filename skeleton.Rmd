@@ -6,9 +6,12 @@ output:
   pdf_document:
     template: template.tex
     citation_package: biblatex
-    includes:
-      in_header: header.tex
 bibliography: [refs.bib]
+header-includes:
+  - \DeclareBibliographyCategory{cat1}
+  - \DeclareBibliographyCategory{cat2}
+  - \addtocategory{cat1}{R-rmarkdown,rmarkdown2018,knitr2015}
+  - \addtocategory{cat2}{R-knitr,knitr2015}
 ---
 
 Here is my first sentence with citations belonging to one group [@R-rmarkdown; @rmarkdown2018], and here is my second citation [@R-knitr].

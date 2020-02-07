@@ -29,7 +29,7 @@ the repository URL.
 # Usage
 
 The usage is straightforward, simply write your document in the `Rmd`
-file as you usually would. In YAML header, you may custom-define any
+file as you usually would. In the YAML header, you may custom-define any
 reference categories you like, and assign the `BibTeX` IDs to the
 various categories. IDs can belong to multiple categories, if you would
 like them to show up in multiple reference lists.
